@@ -1,0 +1,118 @@
+body{background: #fd3c3c;
+    color: white;
+}
+
+p{ text-align: center;
+}
+
+.collecting {
+    font-size: 12pt;
+}
+
+form{
+    text-align: center;
+    border-style: solid;
+    font-size: 12pt;
+    width: 80%;
+    margin: auto;
+    
+}
+
+input[type=text]{
+border:2px solid white;
+border-radius: 4px;
+background-color: #fd3c3c;
+color:white;
+width: 200px;
+height: 40px;
+margin: 10px ;
+
+}  
+
+input[type="text"]:focus {
+border: 4px dashed white;
+}
+
+input[type="submit"] {
+background-color: #fd3c3c;
+border: 1px solid;
+color: white;
+padding: 6px 6px;
+margin-top: 40px;
+
+}
+
+.first{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3em;
+}
+
+
+.show{
+    margin-top: 100px;
+        color: white;
+       text-align: center;
+      font-size:3em;
+}
+
+.center{
+ width:800px;
+ margin: 50px auto;
+ 
+}
+
+a{
+    font-size:1em;
+    font-weight: 900;
+    opacity: 0.7;
+    color: white;
+             }
+a:link {
+    text-decoration: none;       
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.words{
+    display: inline-block;
+    width: auto;
+    height:auto;
+    color: #fd3c3c;
+    font-size: 24pt;
+}
+
+p.words:hover{
+    color:white;
+}
+
+@media only screen and (max-width: 600px) {
+   .first{
+    font-size: 12pt;
+
+   }
+   .collecting{
+    display: none;
+    
+    }
+
+
+  }
