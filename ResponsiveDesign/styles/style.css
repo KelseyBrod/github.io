@@ -29,7 +29,9 @@
    display: flex;
    flex-wrap: nowrap;
    flex-direction: row;
-    background-color: white;
+  background-color: white;
+    /* justify-content: space-around; you may want to play with this!*/
+
   }
 
   .top >div{
