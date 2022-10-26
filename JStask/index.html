@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hearing Red</title>
+        <style>
+            p{
+                display:inline-block;
+                color:#ed1414;
+                
+            }
+
+
+            p:hover{
+                color: beige;
+            }
+
+            body{
+                background-color: #ed1414;
+                
+            }
+
+            #myform{
+                position:fixed;
+                top:20%;
+                left:25%;
+                width: 50%;
+                background-color: white;
+                opacity: 0.8;
+                padding: 30px;
+                text-align: center;
+                border-radius: 30px;
+
+            }
+
+          
+
+        </style>
+    </head>
+    <body>
+   
+        <!-- <button onclick="myMove()">Click Me</button> -->
+
+
+        <!-- <p id="abcd"></p> -->
+        <p class="words">blooming</p> 
+        <p class="words">florid</p> 
+        <P class="words">full-blooded</P>
+        <p class="words">glowing</p>
+        <p class="words">rosy</p>
+        <p class="words">rubicund</p>
+        <p class="words">ruddy</p>
+        <p class="words">molten</p>
+        <p class="words">fiery</p>
+        <p class="words">hot</p>
+        <p class="words">roasting</p>
+        <p class="words">sultry</p>
+        <p class="words">searing</p>
+        <p class="words">scalding</p>
+        <p class="words">torrid</p>
+        <p class="words">molten</p>
+        <p class="words">fervent</p>
+        <p class="words">warm</p>
+        <p class="words">insurgent</p>
+        <p class="words">mutineer</p>
+        <p class="words">communist</p>
+        <p class="words">fiery</p>
+        <p class="words">hot</p>
+        <p class="words">roasting</p>
+        <p class="words">sultry</p>
+        <p class="words">searing</p>
+        <p class="words">scalding</p>
+        <p class="words">torrid</p>
+        <p class="words">molten</p>
+        <p class="words">fervent</p>
+        <p class="words">warm</p>
+        <p class="words">insurgent</p>
+        <p class="words">mutineer</p>
+        <p class="words">communist</p>
+        <p class="words">fiery</p>
+        <p class="words">hot</p>
+        <p class="words">roasting</p>
+        <p class="words">sultry</p>
+        <p class="words">searing</p>
+        <p class="words">scalding</p>
+        <p class="words">torrid</p>
+        <p class="words">molten</p>
+        <p class="words">fervent</p>
+        <p class="words">fiery</p>
+        <p class="words">hot</p>
+        <p class="words">roasting</p>
+        <p class="words">sultry</p>
+        <p class="words">searing</p>
+        <p class="words">scalding</p>
+        <p class="words">torrid</p>
+        <p class="words">molten</p>
+        <p class="words">fervent</p>
+        <p class="words">warm</p>
+        <p class="words">insurgent</p>
+        <p class="words">mutineer</p>
+        <p class="words">communist</p>
+        <p class="words">fiery</p>
+        <p class="words">hot</p>
+        <p class="words">roasting</p>
+        
+      
+        <div id="myform">
+        <form>
+
+            <br>
+            
+                
+                Please describe "RED" in one word:<input type="text" name="one_word" value="" /> 
+                <br><br>
+                   
+                Please describe how "RED" touches like: <input type="text" name="touch" value="" /> 
+                <br><br>
+                
+                
+                Please describe how "RED" smell like: <input type="text" name="smell" value="" /> 
+                <br><br>
+                
+                
+                Please describe how "RED" sounds like: <input type="text" name="sound" value="" /> 
+                <br><br>
+                
+                
+                Please describe how "RED" envokes your emotion: <input type="text" name="emotion" value="" />
+                <br><br>
+                
+                If "WHITE" is set to numeric value "0" and "BLACK" to "100", please show what value of "RED" is in the range :<br><br>
+                0 <input type="range" id="a" name="a" value="50"> 100  <br><br>
+                
+                <output name="x" for="a b"></output>
+                <br><br>
+                
+                Please explain why you would describe "RED" in the above ways:<input type="text" name="reason" value="" /> 
+                <br>
+              
+                
+            </form>
+            <br>
+                <button onclick="showAll()">Submit</button>
+        
+        </div>
+       
+       
+
+    <!--word list cited from https://www.merriam-webster.com/thesaurus/red -->   
+  
+
+<script>
+
+  //declare an array of "words"
+  const words = document.getElementsByClassName('words');
+//random position of words
+    for (let i = 0; i < words.length; i++) {
+
+        let x = Math.floor(Math.random() * 100);
+        let x_pos = Math.floor(Math.random() * 100) + 1;
+        let y_pos = Math.floor(Math.random() * 100) + 1;
+        let opacity = (Math.floor(Math.random() * 8) + 1)/10;
+        words[i].style.fontSize= x +"pt";
+       
+        words[i].style.position = "absolute";
+        words[i].style.left = x_pos + "%";
+        words[i].style.top = y_pos + "%";
+        words[i].style.opacity = opacity;
+        
+        
+    };
+
+//hide form and show result
+    function showAll() {
+    document.getElementById("myform").style.display = "none";
+    for (let i = 0; i < words.length; i++) {
+    words[i].style.color="white";
+    };
+    };
+
+
+    
+//blink
+//setTimeout function does not work
+function myMove() {
+  
+
+for (let i = 0; i < words.length; i++) {
+  let id = null;
+  const elem = words[i];   
+  let opa = 0;
+  clearInterval(id);
+  id = setInterval(frame, 50);
+
+  function frame() {
+    if (opa == 100) {
+      clearInterval(id);
+      opa = 0;
+    } else {
+      opa++; 
+      let abc = opa/100;
+      elem.style.opacity = abc; 
+    };
+  };
+  
+};
+};
+
+
+
+
+
+    
+
+
+    
+
+</script>
+
+    </body>
+</html>
+
