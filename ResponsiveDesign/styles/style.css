@@ -26,8 +26,16 @@
   }
   
   .top {
-    overflow: hidden;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
     background-color: white;
+  }
+
+  .top >div{
+    margin: 5px;
+    padding-left: 20px;
+
   }
   
 
@@ -113,7 +121,7 @@
     }
    
     .top{
-        display: none;
+        flex-direction: column;
     }
     .header p{
         display: none;
