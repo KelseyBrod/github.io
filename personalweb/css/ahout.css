@@ -1,0 +1,19 @@
+.left {
+    width: 80vh;
+    height: 75vh;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+    box-shadow: 0 22px 44px 0 rgb(0 0 0 / 21%);
+    position: relative;
+}
+
+.protfolio2 {
+    height: 93vh;
+    border-radius: 15px;
+
+}
+
+.contentbox3 {
+    width: 1600px;
+    margin: 0 auto;
+}
