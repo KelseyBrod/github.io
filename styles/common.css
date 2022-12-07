@@ -1,0 +1,257 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+td {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    font: 16px "microsoft yahei";
+    word-wrap: break-word
+}
+
+a,
+u,
+s,
+del {
+    color: #666;
+    text-decoration: none
+}
+
+fieldset,
+a img,
+.bor0 {
+    border: 0
+}
+
+i,
+em,
+b {
+    font-style: normal;
+    font-weight: 100
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse
+}
+
+.ind2 {
+    text-indent: 2em
+}
+
+textarea {
+    resize: none
+}
+
+textarea,
+input {
+    outline: 0
+}
+
+.valign {
+    text-align: center
+}
+
+.valign img {
+    vertical-align: middle
+}
+
+.valign:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+}
+
+.over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.clear:before {
+    content: "";
+    display: table
+}
+
+
+/* :hover {
+
+    cursor: pointer
+} */
+
+.commmunbg {
+    width: 100%;
+    background-color: rgb(94, 133, 208);
+}
+
+/*公共的头部样式*/
+.flex_jbt {
+    display: flex;
+
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2.1vw;
+    padding-bottom: 2.1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    z-index: 3;
+}
+
+a {
+    color: white;
+}
+
+.header_title {
+    font-size: 27px;
+    color: white;
+}
+
+.header_title div:nth-child(2) {
+    margin-left: 40px;
+}
+
+/*公共的头部样式*/
+
+/*公共的字体样式*/
+.contentbox {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.contentbox2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: azure;
+    text-shadow: 4px 4px rgba(46, 45, 45, 0.2);
+}
+
+h3 {
+    font-size: 54px;
+    color: azure;
+}
+
+h4 {
+    font-size: 34px;
+    color: azure;
+}
+
+.title {
+    width: 400px;
+}
+
+
+.text_box_W {
+    width: 500px;
+}
+
+.paragraph {
+    margin-top: 30px;
+    font-size: 20px;
+    color: azure;
+    width: 300px;
+    text-align: left;
+}
+
+.paragraph2 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: azure;
+    text-align: left;
+}
+
+.right {
+    /* background-color: rgb(217, 217, 217); */
+    /* border-radius: 10px;
+    box-shadow: 0 22px 44px 0 rgb(0 0 0 / 21%); */
+    position: relative;
+}
+
+.right_size1 {
+    width: 800px;
+    height: 200px;
+}
+
+.img_box {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 22px 44px 0 rgb(0 0 0 / 21%);
+
+}
+
+.project {
+    display: flex;
+    height: 700px;
+    justify-content: space-around;
+
+}
+
+.projectimg {
+    position: absolute;
+
+}
+
+.box_shadow {
+    box-shadow: 2px 8px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text_shadow {
+    text-shadow: 5px 5px rgba(19, 18, 18, 0.3);
+}
+
+.header_nav_list>a {
+    display: block;
+    border-bottom: 2px solid white;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+.shiyongtuimg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
