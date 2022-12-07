@@ -1,0 +1,870 @@
+body{
+    /* background-color: rgb(246, 246, 246); */
+}
+.PINQ{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 1px solid red; */
+} 
+.h1p {
+     width: 100%;
+     height: 160px;
+ }
+
+ .h1p h1 {
+     text-align: center;
+     font-size: 28px;
+     font-weight: 700;
+     padding-top: 40px;
+     
+ }
+
+
+
+ .h1p .WNCX-p {
+     margin-top: 20px;
+     text-align: center;
+     font-size: 13px;
+
+ }
+ .PINQ .PINQ-top {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(226, 226, 226);
+ }
+ .PINQ .PINQ-top .top{
+    width: 100%;
+ }
+  .PINQ .PINQ-top .top ul{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+.PINQ .PINQ-top .top ul li{
+        width: 8%;
+        height: 40px;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3%;
+        cursor: pointer;
+        
+}
+.PINQ .PINQ-top .top ul .fount{
+    border-bottom: 3px solid #000;
+    font-weight: 600;
+}
+
+ .PINQ .PINQ-top .bottom {
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+ }
+   .PINQ .PINQ-top .bottom p{
+    /* background: rgb(226, 226, 226); */
+   }
+  .PINQ .PINQ-top .bottom .p1{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15%;
+
+  }
+.PINQ .PINQ-top .bottom .p2{
+    width: 50%;
+    height: 40px;
+}
+.PINQ .PINQ-top .bottom .p2 input{
+    width: 100%;
+    margin-top: 8px;
+    outline: none;
+    border-radius: 40px;
+    border: 1px solid rgb(242, 240, 240);
+}
+.PINQ .PINQ-top .bottom .p3 {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    /* border-right: 1px solid #000; */
+}
+.PINQ .PINQ-top .bottom .p4 {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-left: 1px solid rgb(232, 232, 232);
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.navbar-nav #action2 {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-nav #action:hover {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav #action1:hover {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav #action2:hover {
+    background: rgb(219, 219, 219);
+}
+
+
+
+
+
+.PINQ .PINQ-content2 {
+    display: none;
+    width: 90%;
+    height: 600px;
+    background-color: rgb(239, 240, 240);
+    margin: 0 auto;
+    
+}
+
+.PINQ .PINQ-content2 ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.PINQ .PINQ-content2 ul li{
+    width: 31%;
+    height: 40%;
+    border: 1px solid #000;
+    background: #fff;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.PINQ .PINQ-content2 ul li .top{
+    width: 100%;
+    height: 35%;
+
+}
+.PINQ .PINQ-content2 ul li .top #toux{
+    width: 40px;
+    height: 40px;
+    background: url(../images/u=555227454\,1852482860&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 50px 50px;
+    border-radius: 50%;
+    
+}
+.PINQ .PINQ-content2 ul li .top .right{
+    float: right;
+    margin-right: 3%;
+}
+.PINQ .PINQ-content2 ul li .top div{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+.PINQ .PINQ-content2 ul li .top div p{
+    width: 70%;
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+    margin-left: 5%;
+}
+.PINQ .PINQ-content2 ul li .top div .p1{
+    color: rgb(190, 187, 187);
+}
+
+.PINQ .PINQ-content2 ul li .bottom {
+    width: 100%;
+    height: 60%;
+
+}
+.PINQ .PINQ-content2 ul li .bottom p:nth-child(1){
+    width: 90%;
+    margin: 0 auto;
+}
+.PINQ .PINQ-content2 ul li .bottom p:nth-child(2) {
+    width: 90%;
+    margin: 10px auto 0;
+}
+.PINQ .PINQ-content2 ul li .bottom p:nth-child(2) span:nth-child(1) {
+    color: #ccc;
+    margin-right: 30%;
+}
+.PINQ .PINQ-content2 ul li .bottom p:nth-child(2) span:nth-child(2) {
+    display: inline;
+    border-radius: 40px;
+    font-size: 13px;
+    padding: 2px 4px;
+    border: 1px solid red;
+    margin-right: 10%;
+    color: red;
+    cursor: pointer;
+}
+
+.PINQ .PINQ-content2 ul li .bottom p:nth-child(2) span:nth-child(3) {
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 13px;
+    border: 1px solid #000;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+
+.PINQ .PINQ-content2 .FBGZ{
+    width: 80px;
+    background: blue;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+@media screen and (max-width:750px) {
+    .PINQ .PINQ-content2 {
+            height: 2000px;
+        }
+    .PINQ .PINQ-content2 ul li {
+        width: 90%;
+        height: 13%;
+    }
+        .PINQ .PINQ-content2 ul li .bottom p:nth-child(2) span:nth-child(1) {
+            color: #ccc;
+            margin-right: 20%;
+        }
+        
+}
+
+
+
+
+
+ .PINQ .PINQ-content{
+    width: 90%;
+    /* height: 300px; */
+    background-color: rgb(239, 240, 240);
+    margin: 0 auto;
+    display: flex;
+ }
+.PINQ .PINQ-content .content-left{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(234, 237, 237);
+}
+.PINQ .PINQ-content .content-left ul{
+    width: 100%;
+    height: 100%;
+}
+
+.PINQ .PINQ-content .content-left ul .li1{
+    margin: 0 auto;
+    width: 90%;
+    /* border-bottom: 1px solid #000; */
+    padding-top: 20px;
+   
+    
+}
+.PINQ .PINQ-content .content-left ul .li1 p{
+    /* margin: 20px 0; */
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+    background: #fff;
+    /* text-align: center; */
+    margin: 20px auto;
+    border-radius: 40px;
+    display: flex;
+     position: relative;
+}
+.PINQ .PINQ-content .content-left ul .li1 input{
+    line-height: 30px;
+    margin-top: 1px;
+    width: 70%;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+}
+.PINQ .PINQ-content .content-left ul .li1 p span {
+    display: block;
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid #000; */
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    font-size: 24px;
+}
+
+.PINQ .PINQ-content .content-left ul .li2{
+    width: 90%;
+    height: 40px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px;
+    display: flex;
+}
+.PINQ .PINQ-content .content-left ul .li2 .left{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.PINQ .PINQ-content .content-left ul .li2 .center {
+margin-right: 40%;
+    font-weight: 600;
+}
+.PINQ .PINQ-content .content-left ul .li2 .right {
+    width: 40px;
+        height: 40px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 40px;
+}
+
+
+
+
+.PINQ .PINQ-content .content-left ul .li3 {
+    width: 90%;
+    height: 40px;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px;
+    display: flex;
+}
+
+.PINQ .PINQ-content .content-left ul .li3 .left {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.PINQ .PINQ-content .content-left ul .li3 .center {
+    margin-right: 33%;
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-left ul .li3 .right {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}.PINQ .PINQ-content .content-left ul .li4 {
+    width: 90%;
+    height: 40px;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px;
+    display: flex;
+}
+
+.PINQ .PINQ-content .content-left ul .li4 .left {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.PINQ .PINQ-content .content-left ul .li4 .center {
+    margin-right: 47%;
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-left ul .li4 .right {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}.PINQ .PINQ-content .content-left ul .li5 {
+    width: 90%;
+    height: 40px;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px;
+    display: flex;
+}
+
+.PINQ .PINQ-content .content-left ul .li5 .left {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.PINQ .PINQ-content .content-left ul .li5 .center {
+    margin-right: 47%;
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-left ul .li5 .right {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}.PINQ .PINQ-content .content-left ul .li6 {
+    width: 90%;
+    height: 40px;
+    /* border-top: 1px solid #000; */
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px;
+    display: flex;
+}
+
+.PINQ .PINQ-content .content-left ul .li6 .left {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.PINQ .PINQ-content .content-left ul .li6 .center {
+margin-right: 47%;
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-left ul .li6 .right {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+.PINQ .PINQ-content .content-left .left-li2{
+    display: none;
+    width: 90%;
+    /* height: 40px; */
+    margin: 0 auto;
+}
+.PINQ .PINQ-content .content-left .left-li2 div{
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgb(220, 219, 219);
+    /* margin-top:10px ; */
+    margin: 10px auto;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 40px;
+}
+.PINQ .PINQ-content .content-left .left-li2 .count{
+    border: 1px solid blue;
+    /* background-color: rgb(169, 239, 251); */
+    color: blue;
+    font-weight: 600;
+}
+
+
+.PINQ .PINQ-content .content-left .left-li3 {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+.PINQ .PINQ-content .content-left .left-li3 ol #li1{
+    margin-bottom: 10px;
+}
+
+.PINQ .PINQ-content .content-left .left-li4 {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+.PINQ .PINQ-content .content-left .left-li4 p{
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+}
+.PINQ .PINQ-content .content-left .left-li4 p select{
+    width: 100%;
+    height: 100%;
+}
+.PINQ .PINQ-content .content-left .left-li4 p input {
+    width: 100%;
+    height: 100%;
+}
+.PINQ .PINQ-content .content-left .left-li4 p label {
+    width: 80px;
+}
+.PINQ .PINQ-content .content-left .left-li5 {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.PINQ .PINQ-content .content-left .left-li5 p{
+    width: 80%;
+        height: 30px;
+        margin: 10px 0;
+}
+.PINQ .PINQ-content .content-left .left-li5 p input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+.PINQ .PINQ-content .content-left .left-li5 ol li{
+    margin-top: 10px;
+}
+.PINQ .PINQ-content .content-left .left-li6 {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.PINQ .PINQ-content .content-left .left-li6 p {
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.PINQ .PINQ-content .content-left .left-li6 p input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.PINQ .PINQ-content .content-left .left-li6 ol li {
+    margin-top: 10px;
+}
+
+
+.PINQ .PINQ-content .content-right{
+    width: 100%;
+    height: 100%;
+    /* background: greenyellow; */
+}
+.PINQ .PINQ-content .content-right ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.PINQ .PINQ-content .content-right ul li{
+    position: relative;
+    width: 31%;
+    height: 300px;
+    border: 1px solid #000;
+    margin-left: 2%;
+    background: #fff;
+    margin-top: 2%;
+}
+.PINQ .PINQ-content .content-right ul li .top{
+    width: 100%;
+    height: 100%;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.PINQ .PINQ-content .content-right ul li .top p{
+    line-height: 30px;
+}
+.PINQ .PINQ-content .content-right ul li .top p:nth-child(1){
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+.PINQ .PINQ-content .content-right ul li .center {
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid #000; */
+}
+.PINQ .PINQ-content .content-right ul li .center p{
+    margin-top: 8%;
+    text-align: center;
+}
+.PINQ .PINQ-content .content-right ul li .center .center-p1{
+    /* position: absolute; */
+    width: 55%;
+    height: 80%;
+    border-radius: 50%;
+    border: 1px solid #000;
+    /* text-align: center; */
+    margin: 0 auto;
+    background: url(../images/u=1544222954\,3828292723&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+.PINQ .PINQ-content .content-right ul li .center .center-p2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.PINQ .PINQ-content .content-right ul li .center .center-p3 {
+    color: #ccc;
+    margin: 10px 0;
+}
+.PINQ .PINQ-content .content-right ul li .center .center-p4{
+    display: flex;
+}
+.PINQ .PINQ-content .content-right ul li .center .center-p4 .left{
+    display:inline-block;
+    width: 30%;
+    height: 100%;
+    border: 1px solid pink;
+    border-radius: 40px;
+    margin-left: 24%;
+    font-size: 13px;
+    color: rgb(251, 148, 166);
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-right ul li .center .center-p4 .right {
+    display: inline-block;
+    width: 19%;
+    height: 100%;
+    border: 1px solid rgb(129, 235, 203);
+    border-radius: 40px;
+    margin-left: 4%;
+    font-size: 13px;
+    color: rgb(33, 238, 129);
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-right ul li .bottom {
+    width: 92%;
+    height: 17%;
+    display: flex;
+    position: absolute;
+    bottom: 8px;
+}
+.PINQ .PINQ-content .content-right ul li .bottom div{
+    margin-top: 5%;
+
+    width: 50%;
+    height: 100%;
+    border-top: 1px solid #ccc;
+}
+.PINQ .PINQ-content .content-right ul li .bottom div p{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+.PINQ .PINQ-content .content-right ul li .bottom div .bottom-1{
+    /* font-weight: 600; */
+    /* font-size: 15px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+    background: rgba(112, 112, 112, 0.5);
+    z-index: 12345;
+}
+
+.alert .alert-left {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 30px auto;
+    display: flex;
+}
+
+.alert .alert-left #TUI {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(104, 104, 104);
+    top: 540px;
+    left: -45px;
+}
+
+.alert .alert-left img {
+    width: 90%;
+    height: 100%;
+}
+
+.alert .alert-left .alert-right {
+    width: 10%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.alert .alert-left .alert-right ul {
+    width: 100%;
+    height: 50%;
+    border: 1px solid gold;
+    background: rgb(164, 162, 162);
+}
+
+.alert .alert-left .alert-right ul li {
+    position: relative;
+    margin: 20% auto;
+    width: 60%;
+    border-radius: 50%;
+    height: 17%;
+    
+}
+.alert .alert-left .alert-right ul li:nth-child(1) {
+    background: url(../images/u=2220565380\,2694932281&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+.alert .alert-left .alert-right ul li:nth-child(2) p{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 63px;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(3) p{
+    font-size: 24px;
+        color: #fff;
+        text-align: center;
+        line-height: 63px;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(4) p{
+    font-size: 24px;
+        color: #fff;
+        text-align: center;
+        line-height: 63px;
+}
+
+.alert .alert-left .alert-right ul li p {
+    /* margin-top: 30%;
+     */
+    bottom: -18px;
+    left: 7px;
+    position: absolute;
+}
+.alert .alert-left .alert-right ul li footer{
+    position: absolute;
+    bottom: -24px;
+    left: 5px;
+}
+@media screen and (max-width:750px) {
+    .alert .alert-left {
+        margin-top: 235px;
+        width: 90%;
+        height: 30%;
+    }
+        .alert .alert-left #TUI {
+                top: 290px;
+        left: -32px;
+        }
+.alert .alert-left .alert-right ul li p {
+        left: -2px;
+}
+.alert .alert-left .alert-right ul li:nth-child(2) p {
+        line-height: 40px;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(3) p {
+    line-height: 55px;
+}
+.PINQ .PINQ-content .content-right ul li .top p:nth-child(1) {
+    font-size: 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    .PINQ .PINQ-content .content-right ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .PINQ .PINQ-content .content-right ul li{
+        width: 48%;
+    }
+    .PINQ .PINQ-content .content-right ul li .center .center-p4 .left{
+    display:inline-block;
+    width: 51%;
+    height: 100%;
+    border: 1px solid pink;
+    border-radius: 40px;
+    margin-left: 12%;
+    font-size: 13px;
+    color: rgb(251, 148, 166);
+    font-weight: 600;
+}
+
+.PINQ .PINQ-content .content-right ul li .center .center-p4 .right {
+    display: inline-block;
+    width: 27%;
+    height: 100%;
+    border: 1px solid rgb(129, 235, 203);
+    border-radius: 40px;
+    margin-left: 4%;
+    font-size: 13px;
+    color: rgb(33, 238, 129);
+    font-weight: 600;
+}
+ .foot .foot-content .foot-left {
+     width: 70%;
+     height: 100%;
+     /* background: gold; */
+     display: flex;
+ }
+
+ .foot .foot-content .foot-left ul li {
+     margin-left: 0px;
+     margin-top: 20px;
+     color: rgb(236, 233, 233);
+
+ }
+ .PINQ .PINQ-top .top ul li {
+    width: 30%;
+ }
+}
+

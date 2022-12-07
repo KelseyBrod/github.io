@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset1.css">
+    <link rel="stylesheet" href="./css/navs.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="alert">
+    
+        <div class="alert-left">
+            <div class="glyphicon glyphicon-arrow-left" id="TUI"></div>
+            <div class="glyphicon glyphicon-play auto"></div>
+            <img src="images/home1.png" alt="">
+            <div class="alert-right">
+                <ul>
+                    <li>
+                        <p>button</p>
+                    </li>
+                    <li>
+                        <p>button</p>
+                    </li>
+                    <li>
+                        <p>button</p>
+                    </li>
+                    <li>
+                        <p>button</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Pinterest</a>
+            </div>
+    
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li id="action"><a href="index.html">Home</a></li>
+                    <li><a href="Discoured.html">Inspiration <span class="sr-only">(current)</span></a></li>
+                    <li><a href="hirejobs.html">Career</a></li>
+                    
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索···">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="li1"><a href="#">LogIn</a></li>
+                    <li id="li2"><a href="#">SignUp</a></li>
+                    <li id="li2"><a href="#">FreeTrail</a></li>
+                    <!-- <li id="li3"><a href="#">Free trail</a></li> -->
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+
+    <div class="box">
+        
+                <div class="tem active">
+                    <a href="index.html"> <img src="images/home1.png" alt="..."></a> 
+                    
+                </div>
+
+                <div class="tem">
+                    <a href="Discoured.html"> <img src="images/home2.png" alt="..."></a>
+                    
+                </div>
+
+                <div class="tem">
+                    <a href="hirejobs.html">  <img src="images/home3.png" alt="..."></a>
+
+                    
+                </div>
+
+                <ul>
+                    <li class="first"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+                <div class="bix-left glyphicon glyphicon-chevron-left LUN">
+
+                </div>
+                <div class="bix-right glyphicon glyphicon-chevron-right LUN">
+
+                </div>
+
+    </div>
+
+
+
+        
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script>
+        var idx = 0;
+         var clientWidth = document.documentElement.clientWidth;
+        if (clientWidth > 750) {
+             var time = setInterval(autoPlay,3000)
+            $(".bix-left").click(function(){
+            clearInterval(time)
+            $(".tem:eq("+idx+")").css({"left":0}).stop(true).animate({"left":-1540},1000)
+            idx++;
+            idx = idx >2?0:idx;
+            $(".tem:eq(" + idx + ")").css({ "left": 1540 }).stop(true).animate({ "left": 0 },1000)
+            $(".box ul li:eq("+idx+") ").addClass("first").siblings().removeClass("first")
+             time = setInterval(autoPlay, 3000)
+        })
+
+
+        $(".bix-right").click(function(){
+            clearInterval(time)
+            $(".tem:eq(" + idx + ")").css({ "left": 0 }).stop(true).animate({ "left": 1540 }, 1000)
+            idx--;
+            idx=idx<0?2:idx;
+             $(".tem:eq(" + idx + ")").css({ "left": -1540 }).stop(true).animate({ "left": 0 }, 1000)
+             $(".box ul li:eq(" + idx + ") ").addClass("first").siblings().removeClass("first")
+             time = setInterval(autoPlay,3000)
+           })  
+            } else {
+                var time2 = setInterval(ZDautoPlay,3000)
+                //移动端点击事件
+                 $(".bix-left").click(function () {
+                clearInterval(time2)
+                $(".tem:eq(" + idx + ")").css({ "left": 0 }).stop(true).animate({ "left": -400 }, 1000)
+                idx++;
+                idx = idx > 2 ? 0 : idx;
+                $(".tem:eq(" + idx + ")").css({ "left": 400 }).stop(true).animate({ "left": 0 }, 1000)
+                $(".box ul li:eq(" + idx + ") ").addClass("first").siblings().removeClass("first")
+                time = setInterval(ZDautoPlay, 3000)
+            })
+
+
+            $(".bix-right").click(function () {
+                clearInterval(time2)
+                $(".tem:eq(" + idx + ")").css({ "left": 0 }).stop(true).animate({ "left": 400 }, 1000)
+                idx--;
+                idx = idx < 0 ? 2 : idx;
+                $(".tem:eq(" + idx + ")").css({ "left": -400 }).stop(true).animate({ "left": 0 }, 1000)
+                $(".box ul li:eq(" + idx + ") ").addClass("first").siblings().removeClass("first")
+                time = setInterval(ZDautoPlay, 3000)
+            })
+            }
+
+
+        
+            
+
+
+            function autoPlay(){
+                 
+                 $(".tem:eq(" + idx + ")").css({ "left": 0 }).stop(true).animate({ "left": -1540 }, 1000)
+                idx++;
+                idx = idx > 2 ? 0 : idx;
+                $(".tem:eq(" + idx + ")").css({ "left": 1540 }).stop(true).animate({ "left": 0 }, 1000)
+                $(".box ul li:eq(" + idx + ") ").addClass("first").siblings().removeClass("first")
+               
+
+            }
+            function ZDautoPlay() {
+
+                    $(".tem:eq(" + idx + ")").css({ "left": 0 }).stop(true).animate({ "left": -400 }, 1000)
+                    idx++;
+                    idx = idx > 2 ? 0 : idx;
+                    $(".tem:eq(" + idx + ")").css({ "left": 400 }).stop(true).animate({ "left": 0 }, 1000)
+                    $(".box ul li:eq(" + idx + ") ").addClass("first").siblings().removeClass("first")
+
+
+                }
+
+
+           
+            
+    </script>
+</body>
+</html>
