@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(253, 244, 234);
+}
+
+.itme{
+    width: 100%;
+}
+.itme img{
+    width: 1560px;
+}
+.h1p {
+    width: 100%;
+    height: 160px;
+}
+
+.h1p h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+
+
+.h1p .WNCX-p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+
+}
+.navbar-right #li1 a{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    
+    line-height: 0px;
+    border-radius:40px ;
+    color: blue;
+    background: rgb(245, 249, 251);
+    border: 1px solid rgb(212, 237, 243);
+}
+.navbar-right #li1 a:hover {
+    background-color: blue;
+    color: #fff;
+}
+.navbar-right #li2 a {
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: rgb(245, 249, 251);
+        border: 1px solid rgb(212, 237, 243);
+    line-height: 0px;
+    border-radius: 40px;
+    margin-right: 10px;
+    color: blue;
+}
+.navbar-right #li2 a:hover {
+    background-color: blue;
+    color: #fff;
+}
+.navbar-right #li3 a {
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+    height: 30px;
+    background: rgb(245, 249, 251);
+        border: 1px solid rgb(212, 237, 243);
+    line-height: 0px;
+    border-radius: 40px;
+    color: blue;
+    z-index: 2;
+}
+.navbar-right #li3 a:hover {
+    background-color: blue;
+    color: #fff;
+}
+.form-group{
+    margin-left: 150px;
+    
+}
+.form-group input{
+    width: 400px;
+}
+
+
+.box{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+.box .tem{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 1540px;
+}
+.box .active{
+    left: 0;
+}
+.box .tem img{
+    width: 100%;
+    height: 100%;
+}
+.box ul{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box ul li{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+}
+.box ul .first{
+    background: gold;
+}
+.box .LUN{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 600px;
+}
+.box .bix-right{
+    right: 0;
+}
+
+.box .LUN:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width:750px) {
+
+}
+
+

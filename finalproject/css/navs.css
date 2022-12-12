@@ -1,0 +1,117 @@
+.navbar-nav #action {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-nav #action:hover {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav #action1:hover {
+    background: rgb(219, 219, 219);
+}
+
+.navbar-nav #action2:hover {
+    background: rgb(219, 219, 219);
+}
+.alert {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 1000px;
+    background: rgba(112, 112, 112, 0.5);
+    z-index: 12345;
+}
+
+.alert .alert-left {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 30px auto;
+    display: flex;
+}
+
+.alert .alert-left #TUI {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(104, 104, 104);
+    top: 540px;
+    left: -45px;
+}
+.alert .alert-left .auto{
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    font-size: 28px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    cursor: pointer;
+}
+
+.alert .alert-left img {
+    width: 90%;
+    height: 100%;
+}
+
+.alert .alert-left .alert-right {
+    width: 10%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.alert .alert-left .alert-right ul {
+    width: 100%;
+    height: 50%;
+    border: 1px solid gold;
+    background: rgb(164, 162, 162);
+}
+
+.alert .alert-left .alert-right ul li {
+    position: relative;
+    margin: 20% auto;
+    width: 60%;
+    border-radius: 50%;
+    height: 17%;
+    background: url(../images/u=2220565380\,2694932281&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(2) {
+    background: url(../images/u=585339397\,3104548095&fm=253&fmt=auto&app=138&f=PNG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(3) {
+    background: url(../images/u=603872507\,206425630&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+
+.alert .alert-left .alert-right ul li:nth-child(4) {
+    background: url(../images/u=479093873\,3088835762&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat;
+    background-size: 100% 100%;
+}
+
+.alert .alert-left .alert-right ul li p {
+    /* margin-top: 30%;
+     */
+    bottom: -18px;
+    left: 7px;
+    position: absolute;
+}
